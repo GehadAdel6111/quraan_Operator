@@ -1,0 +1,59 @@
+.surahInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    background: #98bd9df0;
+    color: #1A3636;
+    font-size: 30px;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.surahInfo:hover{
+    background: #b2d1b6f0;
+}
+.surahInfo div{
+    width: 105%;
+    height: 100px !important;
+    display: flex;
+    align-items: center;
+}
+.surahInfo audio{
+    width: 105%;
+    height: 90% !important;
+}
+.surahImage{
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.surahImage img{
+    width: 20%;
+    height: 100%;
+    border-radius: 10px;
+}
+@media only screen and (max-width : 950px){
+    .container{
+        padding: 30px;
+    }
+    .surahInfo{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .surahInfo div{
+        width: 105% !important;
+        height: 60px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .surahInfo audio{
+        width: 90% !important;
+    }
+}
